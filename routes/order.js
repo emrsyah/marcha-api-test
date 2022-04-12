@@ -8,8 +8,8 @@ const { route } = require(".");
 // Create Core API instance
 var coreApi = new midtransClient.CoreApi({
   isProduction: false,
-  serverKey: "SB-Mid-server-eVBzeVBpBTDbhWCD2pvxNRJj",
-  clientKey: "SB-Mid-client-UvEFJ2HLiezSX9Hx",
+  serverKey: "SB-Mid-server-ePp6ObVqaHanY7uH9J64L6ka",
+  clientKey: "SB-Mid-client-ECv28tdH14bLZVkg",
 });
 
 router.get("/", function (req, res, next) {
